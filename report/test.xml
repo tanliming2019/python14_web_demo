@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="5" time="43.795"><testcase classname="test_login.TestLogin" file="test_login.py" line="25" name="test_login_1_error[data10-data20-data30]" time="6.952"><system-err>[2019-08-21 06:25:42,907]-[INFO]-[日志信息]:-----测试开始----
+[2019-08-21 06:25:42,909]-[INFO]-[日志信息]:测试数据是：{&apos;username&apos;: &apos;&apos;},{&apos;pwd&apos;: &apos;&apos;},{&apos;expected&apos;: &apos;请输入手机号&apos;}
+[2019-08-21 06:25:44,486]-[INFO]-[日志信息]:-----测试结束----
+</system-err></testcase><testcase classname="test_login.TestLogin" file="test_login.py" line="25" name="test_login_1_error[data11-data21-data31]" time="0.454"><system-err>[2019-08-21 06:25:44,494]-[INFO]-[日志信息]:-----测试开始----
+[2019-08-21 06:25:44,495]-[INFO]-[日志信息]:测试数据是：{&apos;username&apos;: &apos;12&apos;},{&apos;pwd&apos;: &apos;&apos;},{&apos;expected&apos;: &apos;请输入正确的手机号&apos;}
+[2019-08-21 06:25:44,943]-[INFO]-[日志信息]:-----测试结束----
+</system-err></testcase><testcase classname="test_login.TestLogin" file="test_login.py" line="25" name="test_login_1_error[data12-data22-data32]" time="0.459"><system-err>[2019-08-21 06:25:44,950]-[INFO]-[日志信息]:-----测试开始----
+[2019-08-21 06:25:44,951]-[INFO]-[日志信息]:测试数据是：{&apos;username&apos;: &apos;18654321456&apos;},{&apos;pwd&apos;: &apos;&apos;},{&apos;expected&apos;: &apos;请输入密码&apos;}
+[2019-08-21 06:25:45,404]-[INFO]-[日志信息]:-----测试结束----
+</system-err></testcase><testcase classname="test_login.TestLogin" file="test_login.py" line="41" name="test_login_2_unaut" time="0.999"><system-err>[2019-08-21 06:25:45,413]-[INFO]-[日志信息]:-----测试开始----
+[2019-08-21 06:25:45,797]-[INFO]-[日志信息]:测试数据；{&apos;username&apos;: &apos;18654321454&apos;, &apos;pwd&apos;: &apos;12&apos;, &apos;expected&apos;: &apos;此账号没有经过授权，请联系管理员!&apos;}
+[2019-08-21 06:25:46,411]-[INFO]-[日志信息]:-----测试结束----
+</system-err></testcase><testcase classname="test_login.TestLogin" file="test_login.py" line="56" name="test_login_3_success" time="34.646"><system-err>[2019-08-21 06:25:46,415]-[INFO]-[日志信息]:-----测试开始----
+[2019-08-21 06:25:46,416]-[INFO]-[日志信息]:测试数据；{&apos;username&apos;: &apos;18684720553&apos;, &apos;pwd&apos;: &apos;python&apos;, &apos;expected&apos;: &apos;python10&apos;}
+[2019-08-21 06:26:13,032]-[INFO]-[日志信息]:-----测试结束----
+</system-err></testcase></testsuite>

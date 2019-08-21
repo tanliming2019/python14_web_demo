@@ -1,0 +1,6 @@
+INFO     api_log:my_log.py:31 -----测试开始----
+INFO     api_log:my_log.py:31 测试数据；{'username': '18684720553', 'pwd': 'python', 'expected': 'python10'}
+INFO     api_log:my_log.py:31 -----测试结束----
+WARNING  urllib3.connectionpool:connectionpool.py:665 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BFB7DAF5F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/472e870c160f2b9cfc4c05a578d49636
+WARNING  urllib3.connectionpool:connectionpool.py:665 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BFB7DAF7B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/472e870c160f2b9cfc4c05a578d49636
+WARNING  urllib3.connectionpool:connectionpool.py:665 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BFB7DAF908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/472e870c160f2b9cfc4c05a578d49636

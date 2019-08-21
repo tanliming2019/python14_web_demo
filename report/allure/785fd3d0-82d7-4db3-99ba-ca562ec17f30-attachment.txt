@@ -1,0 +1,3 @@
+INFO     api_log:my_log.py:31 -----测试开始----
+INFO     api_log:my_log.py:31 测试数据是：{'username': '18654321456'},{'pwd': ''},{'expected': '请输入密码'}
+INFO     api_log:my_log.py:31 -----测试结束----

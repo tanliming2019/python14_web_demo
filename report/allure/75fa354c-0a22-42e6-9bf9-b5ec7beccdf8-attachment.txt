@@ -1,0 +1,3 @@
+[32mINFO    [0m api_log:my_log.py:31 -----测试开始----
+[32mINFO    [0m api_log:my_log.py:31 测试数据；{'username': '18684720553', 'pwd': 'python', 'expected': 'python10'}
+[32mINFO    [0m api_log:my_log.py:31 -----测试结束----
